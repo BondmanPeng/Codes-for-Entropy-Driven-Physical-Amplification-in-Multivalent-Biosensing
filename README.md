@@ -51,7 +51,7 @@ Key quantities computed:
 | `kl`        | Maximum number of bonds a single ligand can form with a linker|
 | `nl`        | Number of ligands per guest particle |
 | `xi_r`      | Boltzmann weight for receptor bond formation, `exp(-f_r)` |
-| `kr`        | Maximum number of bonds a single receptor can form |
+| `kr`        | Maximum number of bonds a single receptor can form with a linker |
 | `nr`        | Number of receptors within reach of a guest particle (Poisson-distributed with mean `nr` in theory) |
 | `mu_linker` | Chemical potential of the linker (log concentration; varied to sweep θ from 0 to 1) |
 | `mu_g`      | Chemical potential of the guest particle in bulk |
